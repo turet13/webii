@@ -1,0 +1,63 @@
+/* Global styles for TechSolutions */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.navbar {
+    background-color: #04535c;
+}
+
+.navbar .nav-link, .navbar-brand {
+    color: white !important;
+}
+
+.hero-section {
+    background: url('img/fondo_index.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.carousel-container {
+    background-color: #04535c;
+    padding: 50px 0;
+}
+
+.testimonial-item, .service-card, .team-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.testimonial-item img, .team-card img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.testimonial-item:hover, .service-card:hover, .team-card:hover {
+    transform: scale(1.05);
+}
+
+/* Contact form button */
+.contact-form input[type="submit"] {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
